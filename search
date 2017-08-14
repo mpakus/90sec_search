@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'clamp'
+require_relative './lib/search'
+
+Clamp do
+  option ['-s', '--string'], 'STRING', 'string you looking for'
+
+  def execute
+    Search.perform(string)
+  end
+end
