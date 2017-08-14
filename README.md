@@ -1,5 +1,7 @@
 # 90 seconds search
 
+[![CircleCI](https://circleci.com/gh/mpakus/90sec_search.svg?style=svg)](https://circleci.com/gh/mpakus/90sec_search)
+
 Using the attached files write a simple command line application in
 Ruby to search the data and return the results in a human readable
 format. Feel free to use libraries or roll your own code as you see
